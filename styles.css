@@ -1,0 +1,280 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Basic styles */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    margin: 10px 0;
+    background: #fff;
+    border-radius: 8px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Reset beberapa gaya default */
+body, h1, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Gaya untuk header */
+header {
+    background-image: url('images/test.jpeg'); /* Path ke gambar latar belakang */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 60px 20px; /* Padding untuk memberi ruang di header */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header .logo {
+    max-width: 100px; /* Ukuran maksimum gambar logo */
+    margin-bottom: 10px; /* Jarak antara logo dan elemen di bawahnya */
+}
+
+header h1 {
+    margin-bottom: 10px; /* Jarak antara judul dan menu navigasi */
+}
+
+nav ul {
+    list-style: none; /* Menghapus bullet point dari daftar */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Menampilkan item sebagai inline */
+    margin: 0 15px; /* Jarak antar item menu */
+}
+
+nav ul li a {
+    color: #fff; /* Warna teks link */
+    text-decoration: none; /* Menghapus garis bawah dari link */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Menambahkan garis bawah saat hover */
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+header .chip {
+    position: absolute;
+    top: 10px; /* Jarak dari atas header */
+    left: 790px; /* Jarak dari kiri header */
+    width: 300px; /* Ukuran chop */
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.7); /* Warna latar belakang chip dengan transparansi */
+    color: #333; /* Warna teks chip */
+    border-radius: 30px; /* Membuat chip berbentuk oval */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan untuk efek 3D */
+}
+
+header .logo {
+    margin-top: 100px;
+    max-width: 300px; /* Ukuran maksimum gambar logo */
+    margin-bottom: 100px; /* Jarak antara logo dan elemen di bawahnya */
+}
+
+header h1 {
+    margin-bottom: 10px; /* Jarak antara judul dan menu navigasi */
+}
+
+nav ul {
+    list-style: none; /* Menghapus bullet point dari daftar */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Menampilkan item sebagai inline */
+    margin: 0 15px; /* Jarak antar item menu */
+}
+
+nav ul li a {
+    color: #fff; /* Warna teks link */
+    text-decoration: none; /* Menghapus garis bawah dari link */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Menambahkan garis bawah saat hover */
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+/* Gaya untuk header */
+.header {
+    position: relative;
+    background-image: url('images/test.jpeg'); /* Path ke gambar latar belakang */
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* Sesuaikan tinggi header */
+    padding: 70px 20px; /* Padding untuk memberi ruang di header */
+    text-align: center;
+    color: #fff;
+    text-align: center;
+    overflow: hidden; /* Untuk memastikan overlay tidak meluap keluar */
+    position: relative; /* Membantu positioning chip */
+}
+
+.header h1 {
+    margin: 0;
+    padding: 20px;
+}
+
+.header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Overlay dengan efek blur */
+.header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    z-index: 1; /* Menempatkan overlay di atas gambar latar belakang */
+}
+
+/* Mengatur z-index untuk memastikan teks dan navigasi muncul di atas overlay */
+.header h1, .header nav {
+    position: relative;
+    z-index: 2;
+}
+
+/* Footer */
+.footer {
+    background-color: #333; /* Warna latar belakang footer */
+    color: #fff; /* Warna teks */
+    text-align: center; /* Men-center-kan teks */
+    padding: 20px; /* Jarak di dalam footer */
+    position: relative; /* Agar jika diperlukan untuk penempatan absolut di dalam footer */
+}
+
+.footer-content {
+    max-width: 1200px; /* Maksimal lebar konten footer */
+    margin: 0 auto; /* Mengatur margin otomatis di kiri dan kanan */
+}
+
+.footer p {
+    margin-bottom: 3px; /* Jarak bawah antara paragraf */
+}
+
+.footer-links {
+    list-style: none; /* Menghapus bullet points pada daftar */
+    padding: 0;
+    margin: 10px 0; /* Jarak atas dan bawah */
+}
+
+.footer-links li {
+    display: inline; /* Menampilkan item daftar dalam baris yang sama */
+    margin: 0 15px; /* Jarak horizontal antara item */
+}
+
+.footer-links a {
+    color: #fff; /* Warna link */
+    text-decoration: none; /* Menghapus garis bawah pada link */
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* Garis bawah pada hover */
+}
+
+.footer-address {
+    margin-top: 10px; /* Jarak atas untuk alamat */
+}
