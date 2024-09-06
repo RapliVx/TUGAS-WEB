@@ -269,6 +269,7 @@
   height: auto; /* Agar proporsi gambar tetap terjaga */
   margin: 20px 10px; /* Margin atas 20px, margin kiri-kanan otomatis */
   display: block; /* Mengatur tampilan sebagai blok */
+  margin-bottom: 20px;
   float: left;
 }
 
